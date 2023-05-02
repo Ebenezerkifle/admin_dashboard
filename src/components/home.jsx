@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PieChart from "./piechart";
 
 class Home extends Component {
   state = {};
@@ -70,6 +71,11 @@ class Home extends Component {
                   <h2>243</h2>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12 col-md-8 p-3">
+              <PieChart />
             </div>
           </div>
         </div>
